@@ -1,0 +1,95 @@
+.topnav {
+    display: flex;
+    background-color: 	#EEECED;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: baseline;
+    flex-grow: 1;
+    width: auto;
+  }
+  .middle{
+   flex: 1;      
+  }
+  .logo{
+    width: 100;
+    height:auto;
+    background-color: azure;
+  }
+  
+ .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .topnav a:hover {
+    background-color:coral;
+    color:white;
+  }
+  
+  .topnav a.active {
+    background-color: black;
+    color: white;
+  }
+  .body{
+      background-color:  	#EEECED;;
+  }
+  .topnav2{
+    background-position-x: 40%;
+    background-color: white;
+    }
+  .topnav2 a:hover {
+    background-color:coral;
+    color:black;
+  }
+  .body {
+    background-image: src="BG-lines.png";
+    background-color:#EEECED;
+   }
+.body-img{
+        position: relative;
+        display: block;
+        margin-top: 6%;
+        margin-left: 30%;
+        margin-bottom: auto;
+        width: 50%;
+        z-index: -1;
+    
+}
+.part{
+    position: absolute;
+    bottom: 18%;
+    left: 17%;
+    z-index: 0;
+}
+.part2{
+  position: absolute;
+  right : 40%;
+  top: 10%;
+  z-index: 0;
+}
+.helmet{
+  position: absolute;
+  z-index: 1;
+  height: 600px;
+  width: auto;
+  left: 5%;
+  }
+.helmet1{
+  position: absolute;
+  left:110%;
+  height: 600px;
+  width: auto;
+  opacity: 0.7;
+}
+.helmet2{
+  position: absolute;
+  right:125%;
+  height: auto;
+  width: 400px;
+  opacity: 0.5;
+
+}
